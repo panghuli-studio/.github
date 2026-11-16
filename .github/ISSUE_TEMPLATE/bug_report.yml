@@ -1,0 +1,34 @@
+name: Bug report
+description: Report a reproducible problem.
+title: "bug: "
+body:
+  - type: markdown
+    attributes:
+      value: "For vulnerabilities, use the repository's Security tab. Remove credentials and personal data from examples."
+  - type: input
+    id: version
+    attributes:
+      label: Version and environment
+      description: Release or commit, operating system, and relevant runtime versions.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Include a minimal example where possible.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      description: Include redacted error messages or screenshots where useful.
+    validations:
+      required: true
