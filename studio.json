@@ -1,0 +1,45 @@
+{
+  "organization": "panghuli-studio",
+  "profile": {
+    "name": "Panghuli Studio",
+    "description": "Independent software studio building developer tools, self-hosted services, and open-source projects.",
+    "default_repository_permission": "read"
+  },
+  "repositories": {
+    ".github": {
+      "description": "Organization profile and shared community guidelines for Panghuli Studio."
+    },
+    "agent-store": {
+      "description": "A web store and desktop client for Claude Code and Codex skills, MCP servers, and model providers.",
+      "homepage": "https://agent-store-test.panghuli.tech"
+    },
+    "director-os": {
+      "description": "Design documents for an AI-assisted storytelling and film production system. Concept stage."
+    },
+    "ppanel-server": {
+      "description": "Backend services for the PPanel proxy management ecosystem.",
+      "homepage": "https://ppanel.dev"
+    },
+    "ppanel-frontend": {
+      "description": "Web interfaces for the PPanel proxy management ecosystem."
+    },
+    "ppanel-node": {
+      "description": "PPanel node service based on Xray, derived from v2node."
+    },
+    "ppanel-script": {
+      "description": "Deployment and maintenance scripts for PPanel services."
+    },
+    "ppanel-subscription-template": {
+      "description": "Subscription configuration templates for PPanel clients."
+    },
+    "ppanel-tutorial": {
+      "description": "Setup guides and operational tutorials for PPanel and related tools."
+    }
+  },
+  "security": {
+    "dependabot_alerts_for_active_repositories": true,
+    "public_secret_scanning": true,
+    "public_push_protection": true,
+    "public_private_vulnerability_reporting": true
+  }
+}
