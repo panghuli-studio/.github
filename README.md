@@ -6,6 +6,7 @@ This repository owns the public organization profile and shared contribution, is
 - `CONTRIBUTING.md` and `SECURITY.md`: shared contribution and private vulnerability reporting guidance.
 - `.github/`: default Issue and PR templates, plus ownership of this repository.
 - `studio.json`: organization identity, public repository descriptions, and the free security baseline.
+- `.github/workflows/secret-scan.yml`: reusable gitleaks scan for pull requests and pushes; usage in [docs/secret-scan.md](docs/secret-scan.md).
 
 ## Administration
 
